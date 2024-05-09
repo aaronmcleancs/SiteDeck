@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpocsrt" content="width=device-width, initial-scale=1.0">
+    <title>SiteSift - Home</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="./social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@800&family=Jost:wght@700&family=Lato&display=swap" rel="stylesheet">
+<script src="validate.js"></script>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ca7f2ffa51.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scroll.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="main-nav"></div>
+    <div class="navbar">
+        <div class="nav-item">
+            <a href="#home">Home</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Lorem Ipsum</h2>
+                <p class="submenu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#projects">Dashboard</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Dolor Sit</h2>
+                <p class="submenu-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#contact">How It Works</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Ut Enim</h2>
+                <p class="submenu-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#contact">Privacy Policy</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Tempor Incididunt</h2>
+                <p class="submenu-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            </div>
+        </div>
+    </div>         
+    <div class="hero__section">
+        <div class="hero__wrapper">
+            <div class="column__left">
+                <h1>Beyond your Homepage.</h1>
+                <p>In depth analysis of your websites <span class="auto-type"></span></p>
+                <div class="input-wrapper">
+                    <input type="url" id="websiteUrl" placeholder="Paste your website link here...">
+                    <button type="submit" id="analyzeBtn" onclick="validateAndRedirect()">Analyze</button>
+                    <span id="validationMessage" style="color:rgb(89, 18, 18);"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+<script>
+    var typed = new Typed('.auto-type', {
+        strings: ['user engagement',
+    'visual aesthetics',
+    'content readability',
+    'mobile responsiveness',
+    'SEO optimization',
+    'user flow paths',
+    'bounce rates',
+    'conversion funnels',
+    'site architecture',
+    'social media integrations',
+    'backlink quality',
+    'security vulnerabilities',
+    'browser compatibility',
+    'keyword rankings',
+    'UI/UX design',
+    'color psychology',
+    'customer testimonials'],
+        typeSpeed: 80,
+        backSpeed: 34,
+        loop: true
+    });
+</script>
+
+</html>

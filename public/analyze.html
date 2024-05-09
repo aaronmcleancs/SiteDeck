@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis - aaron.io</title>
+    <link rel="stylesheet" id="main-css" href="analyze.css">
+    <link rel="stylesheet" href="./social-media-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@800&family=Jost:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <script src="heatmap.js"></script>
+    <script async src="https://docs.opencv.org/master/opencv.js" onload="initialize()"></script>
+    <script src="fetch.js"></script>
+    <script src ="darkmode.js"></script>
+    <script src="dynamicbg.js"></script>
+    <script src="texthighlight.js"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>    
+    <div class="main-nav"></div>
+    <div class="navbar">
+        <div class="nav-item">
+            <a href="#home">Home</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Lorem Ipsum</h2>
+                <p class="submenu-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#projects">Dashboard</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Dolor Sit</h2>
+                <p class="submenu-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#contact">How It Works</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Ut Enim</h2>
+                <p class="submenu-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="nav-item">
+            <a href="#contact">Privacy Policy</a>
+            <div class="submenu">
+                <h2 class="submenu-title">Tempor Incididunt</h2>
+                <p class="submenu-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            </div>
+        </div>
+        <button id="darkModeToggle"></button>
+    </div>         
+    <div class="container">
+        <div class="left-section">
+            <div class="large-rectangle">
+                <div class="iframe-wrapper" data-loading="false">
+                    <!-- The iframe will be inserted here by JavaScript -->
+                    <canvas id="heatmapCanvas"></canvas>
+                </div>
+            </div>
+        </div>    
+        <div class="right-section">
+            <div class="double-rectangle">
+                <div class="card-header">
+                    <h3 class="doublecard-title" data-loading="true"></h3>
+                </div>
+                <p class="card-description" data-loading="true">&nbsp;</p>
+            </div>              
+            <div class="medium-rectangle" data-category="Legibility">
+                <div class="card-header">
+                    <h3 class="card-title" data-loading="true">Legibility</h3>
+                    <img src="icon/placeholder.png" alt="Good Icon" class="icon">
+                </div>
+                <p class="card-description" data-loading="true">&nbsp;</p>
+            </div>
+            <div class="medium-rectangle" data-category="SEO">
+                <div class="card-header">
+                    <h3 class="card-title" data-loading="true">SEO</h3>
+                    <img src="icon/placeholder.png" alt="Good Icon" class="icon">
+                </div>
+                <p class="card-description" data-loading="true">&nbsp;</p>
+            </div>
+            <div class="medium-rectangle" data-category="Call To Action">
+                <div class="card-header">
+                    <h3 class="card-title" data-loading="true">Call To Action</h3>
+                    <img src="icon/placeholder.png" alt="Critical Icon" class="icon">
+                </div>
+                <p class="card-description" data-loading="true">&nbsp;</p>
+            </div>
+            <div class="medium-rectangle" data-category="Branding">
+                <div class="card-header">
+                    <h3 class="card-title" data-loading="true">Branding</h3>
+                    <img src="icon/placeholder.png" alt="Warning Icon" class="icon">
+                </div>
+                <p class="card-description" data-loading="true">&nbsp;</p>
+            </div>         
+        </div>
+    </div>        
+    <script src ="analysis.js"></script>
+</body>
+</html>
