@@ -72,29 +72,29 @@
     position: absolute;
     top: 50px;
     left: auto; 
-    width: 300px; /* Increased width */
-    max-width: calc(100vw - 40px); /* Ensure it doesn't exceed the viewport width */
+    width: 300px; 
+    max-width: calc(100vw - 40px);
     text-align: center;
     padding: 20px;
     background-color: #fbfbfb;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 2;
-    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out; /* Transition effect */
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .submenu-title {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 3rem; 
     margin-bottom: 10px;
-    text-align: left; /* Added */
+    text-align: left;
 }
 
 .submenu-description {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 1.2rem; 
     margin: 0 auto;
-    text-align: left; /* Added */
+    text-align: left;
 }
 
 .nav-item:hover .submenu {
@@ -177,39 +177,39 @@
     position: relative;
     width: 700px;
     align-items: center;
-    background-color: #fff;  /* White background */
-    border-radius: 20px;  /* More rounded edges */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 input[type="url"] {
     padding: 10px 15px 10px 25px;
-    border-radius: 20px;  /* More rounded to match the wrapper */
-    border: none;  /* Remove the border */
-    width: 80%;  /* Give some space for the button */
-    font-weight: 550;  /* Bold text */
-    color: #333;  /* Darker text color */
-    background-color: transparent;  /* No background, use the wrapper's background */
-    outline: none;  /* Remove outline */
-    transition: box-shadow 0.3s ease;  /* Transition on shadow instead of border color */
+    border-radius: 20px;
+    border: none; 
+    width: 80%;
+    font-weight: 550; 
+    color: #333; 
+    background-color: transparent;  
+    outline: none; 
+    transition: box-shadow 0.3s ease;
 }
 
 button#analyzeBtn {
-    padding: 8px 20px;  /* More padding for the button */
+    padding: 8px 20px; 
     background-color: #1f1f1f;
     color: #fff;
     border: none;
-    border-radius: 15px;  /* More rounded button */
+    border-radius: 15px; 
     cursor: pointer;
     height: 42px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     position: absolute;
-    right: 6px;  /* Spacing from the right, adjusted */
+    right: 6px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
-    font-weight: bold;  /* Bold text on button */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Button shadow for depth */
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
 }
 
@@ -225,8 +225,8 @@ button#analyzeBtn:hover {
 }
 
 button#analyzeBtn:active {
-    background-color: #ffffff;  /* Even darker shade for active state */
-    transform: translateY(-50%) scale(0.93);  /* Pressed in effect on active */
+    background-color: #ffffff;  
+    transform: translateY(-50%) scale(0.93); 
 }
 
 .info-card:hover {
@@ -245,7 +245,7 @@ button#analyzeBtn:active {
     text-align: center;
 }
 .url-preview {
-    height: 50vh;  /* adjust this as needed */
+    height: 50vh;
     margin: 10px;
     padding-top: 50px;
     overflow: hidden;
@@ -264,8 +264,8 @@ button#analyzeBtn:active {
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
-    position: relative;  /* Removed the absolute positioning */
-    transform: none;  /* Reset the transform */
+    position: relative;
+    transform: none;
 }
 
 .card-btn:hover {
