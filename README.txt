@@ -1,7 +1,3 @@
- **Installation**:  
-   Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/analysis-website.git
-
-**Usage**: 
+### Usage 
+Replace api key
 node server.mjs
