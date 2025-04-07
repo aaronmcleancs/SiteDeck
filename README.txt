@@ -1,3 +1,3 @@
 ### Usage 
-Replace api key
+Replace openai api key
 node server.mjs
